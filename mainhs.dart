@@ -8,14 +8,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: homescreen(),
+      home: homeScreen(),
       debugShowCheckedModeBanner: false,
     
     );
   }
 }
-class homescreen extends StatelessWidget {
-  const homescreen({super.key});
+class homeScreen extends StatelessWidget {
+  const homeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
